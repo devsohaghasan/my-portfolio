@@ -8,7 +8,7 @@ font-family: 'Oswald', sans-serif;
 
 nav{
     display: flex;
-    
+    justify-content: space-between;
 }
 
 
@@ -27,6 +27,7 @@ nav{
     font-weight: 800;
     
     line-height: normal;
+    margin-left: 200px;
 }
 
 
@@ -34,8 +35,8 @@ nav{
 
 nav > ul{
     display: flex;
-    align-items: center;
-    
+    align-items: center;   
+    margin: 0 200px;    
 }
 
 
@@ -55,6 +56,7 @@ nav a{
 
 
 
+
 .button{
     border-radius: 5px;
     background-color:rgb(242, 69, 6); 
@@ -66,3 +68,45 @@ nav a{
 
 
 }
+
+
+
+
+.header{
+    background-color: rgb(229, 192, 168);
+}
+
+
+
+.bannar{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.profile{
+    height: 400px;
+    margin-right: 150px;
+    align-items: center;
+   background-image: url(./quino-al-JFeOy62yjXk-unsplash.jpg) ;height: 200px; width: 50px; padding-right: 100px;
+}
+.section{
+    text-align: center;
+    font-size: 20px;
+    background-color: bisque;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 0 10px 10px 10px;
+}
+
+
+.information{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
+}
+
+
+
